@@ -566,7 +566,7 @@
   #define TEMP_BED_PIN       14   // ANALOG NUMBERING
 
   #ifdef NUM_SERVOS
-    #define SERVO0_PIN         11
+    #define SERVO0_PIN         7 // not 11 on my ramps (version 1.3?? Dagnall needs to be better coded, but this works)
 
     #if NUM_SERVOS > 1
       #define SERVO1_PIN         6
